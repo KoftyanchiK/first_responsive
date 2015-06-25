@@ -1,0 +1,279 @@
+html, body {
+	width: 100%;
+	padding: 0px;
+	margin: 0 auto;
+	background-color: #f74c55;
+}
+
+#header {
+	background-color: #f74c55;
+	background-image:url(../img/left_header.png), url(../img/rght_header.png);
+	background-repeat: no-repeat;
+	background-position: left bottom, right bottom;
+	min-width: 90%;
+	max-width: 90%;
+	min-height: 496px;
+	/* margin: 0 auto; */
+	float: left;
+	clear: both;
+}
+
+#header_button {
+	position: relative;
+	margin-left: 65%;
+}
+
+.but {
+	position: relative;
+	color: white;
+	padding: 15px;
+	margin: 0px auto;
+	float: left; 
+}
+
+.but:hover {
+	background-color: rgba(255,254,253,0.2);
+}
+
+#header_content {
+	/* position: relative; */
+	/* min-width: 20%;
+	min-height: 30%; */
+	margin: 0 auto;
+	margin-top: 10%;
+	clear: both;
+	margin-left: 45%;
+	color: white;
+}
+
+#header_content > h1 {
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+
+#header_content > p {
+	padding: 0px;
+	margin: 5px;
+	float: left;
+	clear: both;
+}
+
+#header_content > input {
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	clear: both;
+	border-radius: 4px;
+}
+
+#content {
+	min-width: 90%;
+	max-width: 90%;
+	min-height: 448px;
+	background-color: white;
+	/* margin: 0 auto; */
+	float: left;
+	clear: both;
+}
+
+#wrap {
+	max-width: 70%;
+	position: relative;
+	margin: 0 auto;
+	text-align: left;
+	top: 40px;
+}
+
+#blocks {
+	width: 200px;
+	height: 40px;
+	margin-top: 80px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.boxes {
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+
+#box1 {
+	background-color: #ee732f;
+}
+#box2 {
+	background-color: #f74c55;
+}
+#box3 {
+	background-color: #2d5f3b;
+}
+#box4 {
+	background-color: #404040;
+}
+#box5 {
+	background-color: #fb636b;
+}
+
+#box1:hover {
+	background-color: #cc732f;
+}
+#box2:hover {
+	background-color: #d54c55;
+}
+#box3:hover {
+	background-color: #0d5f3b;
+}
+#box4:hover {
+	background-color: #2e4040;
+}
+#box5:hover {
+	background-color: #d9636b;
+}
+
+#botcontent {
+	min-height: 304px;
+	max-width: 90%;
+	min-width: 90%;
+	/* margin: 0 auto; */
+	float: left;
+	clear: both;
+	display: flex;
+	flex-direction: row;
+	justify-conten: flex-start;
+	align-items: stretch;
+}
+
+.cells {
+	padding: 10px;
+} 
+
+.cells > div > img{
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+
+.headers{
+	margin: 0px;
+	padding: 0px;
+}
+
+.paragraphs {
+	clear:both;
+	margin: 0;
+	padding: 0;
+}
+
+.cells > div {
+	color: #fff;
+	margin: 0px;
+	padding: 5%;
+}
+
+#bot1 {
+	background-color: #404040;
+	width: 35%;
+	position: relative;
+	/* padding-left: 100px; */
+}
+/* #bot1 > div {
+	max-width: 65%;
+	min-height: 80%;
+	float: right;
+	margin-right: 30px;
+	margin: 0 auto;
+}
+ */
+
+#bot2 {
+	background-color: #f74c55;
+	width: 30%;
+	position: relative;
+}
+/* #bot2 > div {
+	min-height: 80%;
+	max-width: 70%;
+	margin: 0 auto;
+} */
+
+#bot3 {
+	background-color: #2d5f3b;
+	width: 35%;
+	position: relative;
+	/* padding-right: 100px; */
+}
+/* #bot3 > div {
+	min-height: 80%;
+	max-width: 75%;
+	float: left;
+	margin-left: 30px;
+} */
+
+.plus {
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	font-size: 25pt;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+	float: right;
+	clear: both;
+	bottom: 5%;
+	right: 5%;
+}
+
+#drop {
+	background-image:url(../img/botpic.png);
+	background-color: #f74c55;
+	max-width: 90%;
+	min-width: 90%;
+	min-height: 499px;
+	/* max-height: 1000px; */
+	/* margin: 0 auto; */
+	float: left;
+	clear: both;
+}
+#drop > div {
+	margin: 0 auto;
+	padding: 0px;
+	max-width: 60%;
+	max-height: 40%;
+	color: white;
+	font-size: 50pt;
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+#drop > p {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-size: 40pt;
+}
+
+#drop > div > input {
+	border-radius: 4px;
+}
+
+#breaker {
+	background-image: url(../img/divide.png);
+	max-width: 90%;
+	min-width: 90%;
+	min-height: 9px;
+	/* margin: 0 auto; */
+	float: left;
+	clear: both;
+}
+
+#footer {
+	min-height: 70px;
+	max-width: 90%;
+	min-width: 90%;
+	/* margin: 0 auto; */
+	float: left;
+	clear: both;
+	text-align: center;
+	padding-top: 25px;
+}
